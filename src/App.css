@@ -1,0 +1,213 @@
+* {
+  font-family: "Mulish";
+}
+
+/* login */
+
+.login-main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+.outer-div { 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 600px
+}
+
+.forget-done-outer-div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.showPassword-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.showPassword-div > p {
+  margin-bottom: 1px;
+  font-size: 15px;
+}
+
+.login-bottom {
+  margin-top: 15px;
+  gap: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Forget */
+.forget-p {
+  font-size: 19px;
+  letter-spacing: 1px;
+}
+.signup-p {
+  letter-spacing: 1px;
+  text-align: center;
+}
+.forget-exp {
+  color: #5a5a5a;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+ 
+
+.brand-name{
+  color: black;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-style: italic;
+} 
+
+
+#home {
+  min-height: 100vh;
+  padding-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-outer {
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media only screen and (max-width: 576px) { 
+  .main-outer{
+    width: 90%;
+  }
+  /* .outer-div{
+    width: 320px;
+  } */
+  }
+
+
+.previous-workout-outer {
+  min-height: 100vh;
+  padding-top: 35px;
+}
+.previous-workout-filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 35px 0px 15px 0px;
+}
+.title {
+  text-align: center;
+  font-family: "Poppins";
+}
+.main-box {
+  margin-top: 50px;
+  border: 1px solid #bbbbbb;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: stretch;
+}
+.added-main-box-outer {
+  border: 1px solid #bbbbbb;
+  padding: 25px;
+  margin-top: 50px;
+}
+.added-main-box {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#result-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+.exercise-box {
+  padding: 15px;
+  background-color: #dfdfdf;
+}
+
+.add-exercise {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 15px;
+  padding: 10px;
+  gap: 1rem;
+}
+
+.btn-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#bmi {
+  min-height: 100vh;
+  padding-top: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bmi-main-outer {
+  margin-top: 70px;
+  width: 80%;
+}
+
+.bmi-main-box {
+  margin-top: 50px;
+  border: 1px solid #bbbbbb;
+  padding: 25px;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-btn-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.weight-bars-box {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2px;
+}
+.weight-bars {
+  height: 4px;
+  width: 100%;
+  /* display: inline-block;
+  margin-right: 2px; */
+}
+
+.auth-imgs {
+  width: 527px;
+}
+
+.chart-outer{
+  margin-top: 20px;
+}
+.chart-dates {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.chart-div { 
+  height: 300px !important ; 
+  display: flex;
+  justify-content: center;
+}
