@@ -10,7 +10,7 @@ import Forget from "./Components/Forget";
 import ResetPassword from "./Components/ResetPassword";
 import Activation from "./Components/Activation";     
 
-export const url="https://capstone-fitnessloggerr.onrender.com" 
+export const url="https://fitness-tracker-be-z4l7.onrender.com" 
 
 function App() {
   return (
